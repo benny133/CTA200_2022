@@ -1,0 +1,204 @@
+    1  su -
+    2  /cita/local/bin/passwd
+    3  ls
+    4  git clone https://github.com/bolverk/huji-rich.git
+    5  ls
+    6  cd huji-rich
+    7  ls
+    8  pwd
+    9  cd ..
+   10  pwd
+   11  ~
+   12  cd ~
+   13  pwd
+   14  /cita/h/home-2/student11
+   15  cd /cita/h/home-2/student11
+   16  pwd
+   17  cd ~murray
+   18  cd Papers
+   19  ls
+   20  cd ~murray
+   21  ls
+   22  cd Papers
+   23  ls
+   24  cd ~murray
+   25  cd Papers
+   26  ls
+   27  cd ~murray
+   28  cd Papers
+   29  ls
+   30  cd All_feedback
+   31  cd Hopkins/All_feedback
+   32* cd Ho
+   33  cd All_feedback
+   34  cd All_Feedback
+   35  cd secodn_draft
+   36  cd second_draft
+   37  ls
+   38  ls -la sfh_vs_fbmodel.pdf 
+   39  history
+   40  evince sfh_vs_fbmodel.pdf 
+   41* 
+   42  evince sfh_vs_fbmodel.pdf 
+   43  cd ~
+   44  pwd
+   45  ls -la
+   46  mkdir test_dir
+   47  cd test_dir
+   48  pwd
+   49  ls -la
+   50  ls -la > text_file
+   51  pwd
+   52  ls
+   53  vim text_file
+   54  rm text_file
+   55  ls
+   56  > text_file
+   57  ls
+   58  vim text_file
+   59  cd ..
+   60  ls
+   61  rm test_dir
+   62  rmdir test_dir
+   63  cd test_dir
+   64  rm test_file
+   65  ls
+   66  rm text_file 
+   67  cd ..
+   68  rmdir test_dir
+   69  ls
+   70  cd desktop
+   71  cd Desktop
+   72  ls
+   73  pwd
+   74  cd ~
+   75  ls
+   76  cd huji-rich
+   77  ls
+   78  cd README.md
+   79  README.md
+   80  evince README.md
+   81  module avail
+   82  module load gcc
+   83  gcc --version
+   84  module load python
+   85  python --version
+   86  module list
+   87  module purge
+   88  module list
+   89  module load python gcc
+   90  python --version
+   91  gcc --version
+   92  cd ~fhorrobin
+   93  dir *.c
+   94  evince main.c
+   95  gcc main.c
+   96  pwd
+   97  ls
+   98  m *.c
+   99  more *.c
+  100  ls -la *.c
+  101  cp main.c ~
+  102  cd
+  103  pwd
+  104  ls
+  105  gcc main.c
+  106  gcc main.c -o main
+  107  ./main
+  108  ls -la *.c
+  109  cd ~fhorrobin
+  110  ls -la *.py
+  111  more main.py
+  112  python main.py
+  113  more test.py
+  114  python test.py
+  115  2
+  116  python test.py
+  117  test(2)
+  118  test
+  119  python test.py
+  120  cd
+  121  pwd
+  122  ls
+  123  rm main
+  124  rm main.c
+  125  /mnt/scratch-lustre/username
+  126  cd /mnt/scratch-lustre/username
+  127  cd student 11
+  128  cd student11
+  129  /..
+  130  cd /..
+  131  pwd
+  132  ls
+  133  /mnt/scratch-lustre/student11
+  134  cd /mnt/scratch-lustre/student11
+  135  pwd
+  136  cd
+  137  ls
+  138  cd /mnt/scratch-lustre/student11
+  139  mk dir CTA200_2022
+  140  mkdir CTA200_2022
+  141  cd CTA200_2022
+  142  mkdir assignment_1
+  143  cd assignment_1/
+  144  ls
+  145  pwd
+  146  > README.md
+  147  vim README.md
+  148  cd ~murray
+  149  find . -name "Hello_world.c" -print
+  150  ls
+  151  find . -name "Hello_world.c" -print
+  152  find . -name "*Hello_world.c*" -print
+  153  pwd
+  154  find . -name "Hello_world.py" -print
+  155  cd tmp
+  156  ls
+  157  cp Hello_world.py
+  158  cp Hello_world.py Hello_world.py 
+  159  cp Hello_world.py Hello_world1.py 
+  160  cp Hello_world.py /scratch-lustre/student11/CTA200_2022/assignment_1
+  161  cp Hello_world.py /mnt/scratch-lustre/student11/CTA200_2022/assignment_1
+  162  cd /mnt
+  163  pwd
+  164  ls
+  165  cd scratch-lustre/
+  166  ls
+  167  cd 
+  168  cd ..
+  169  ls
+  170  cd /mnt/scratch-lustre/student11/CTA200_2022/assignment_1
+  171  ls
+  172  cd ~murray
+  173  find . -name "Hello_world.c" -print
+  174  cd /Papers/tmp
+  175  cd Papers/tmp
+  176  ls
+  177  cp Hello_world /mnt/scratch-lustre/student11/CTA200_2022/assignment_1
+  178  cp Hello_world.c /mnt/scratch-lustre/student11/CTA200_2022/assignment_1
+  179  cd /mnt/scratch-lustre/student11/CTA200_2022/assignment_1
+  180  ls
+  181  mv Hello_world.py Hello_world_scully.py
+  182  mv Hello_world.c Hello_world_scully.c
+  183  ls
+  184  more README
+  185  more README.md
+  186  gcc Hello_world_scully.c -o HWs
+  187  ./HWs
+  188  python Hello_world_scully.py
+  189  history
+  190  vi Hello_world_scully.py
+  191  vi Hello_world_scully.c
+  192  gcc Hello_world_scully.c -o Hellow_world.x
+  193  ./ Hellow_world.x 
+  194  ./Hellow_world.x 
+  195  vi Hello_world_scully.c
+  196  gcc Hello_world_scully.c -o Hellow_world.x
+  197  ./Hellow_world.x 
+  198  python Hello_world_scully.py
+  199  vi Hello_world_scully.c
+  200  python Hello_world_scully.py > output_python.txt
+  201  more output_python.txt 
+  202  ./Hellow_world.x > output_c.txt
+  203  more output_c.txt 
+  204  history > history.txt
